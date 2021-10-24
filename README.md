@@ -12,10 +12,14 @@ This app takes use of the following libraries:
 
 ## Libraries
 
-Selenium -- Selenium is an umbrella project encapsulating a variety of tools and libraries enabling web browser automation.
+Selenium (•_•) Selenium is an umbrella project encapsulating a variety of tools and libraries enabling web browser automation.
 ![image](https://user-images.githubusercontent.com/39453835/138594068-b8aee26c-518b-4181-901b-38c695475482.png)
-Junit
-Log4j
+
+Junit (•_•) JUnit is a unit testing framework for the Java programming language. JUnit has been important in the development of test-driven development
+![image](https://user-images.githubusercontent.com/39453835/138594199-900d43a7-b07a-4a83-b5cc-36cb2be8eb8b.png)
+
+Log4j (•_•) Several Logger 
+INFO	Interesting runtime events (startup/shutdown). Expect these to be immediately visible on a console, so be conservative and keep to a minimum.
 
 ### Defining Specifications
 
