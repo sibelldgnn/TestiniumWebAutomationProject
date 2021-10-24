@@ -1,0 +1,136 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"debug","message":"gauge-java took 1579milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 1579"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 62474"}
+{"logLevel":"info","message":"Listening on port:62474"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'steps.AddToBasketSteps.click_to_basket' and 'steps.AddToBasketSteps.click_to_basket'"}
+{"logLevel":"debug","message":"Found Click to basket in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.SecondPageSteps.page_url_should_be' and 'steps.SecondPageSteps.page_url_should_be'"}
+{"logLevel":"debug","message":"Found Page link should be {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.MainPageSteps.user_click_on_search_box' and 'steps.MainPageSteps.user_click_on_search_box'"}
+{"logLevel":"debug","message":"Found User click on search box in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.AddToBasketSteps.should_be_basket_is_empty' and 'steps.AddToBasketSteps.should_be_basket_is_empty'"}
+{"logLevel":"debug","message":"Found Should be basket is empty in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.AddToBasketSteps.increase_basket_count' and 'steps.AddToBasketSteps.increase_basket_count'"}
+{"logLevel":"debug","message":"Found Increase basket count in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.AddToBasketSteps.driver_wait' and 'steps.AddToBasketSteps.driver_wait'"}
+{"logLevel":"debug","message":"Found Driver wait in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.MainPageSteps.page_title_should_be' and 'steps.MainPageSteps.page_title_should_be'"}
+{"logLevel":"debug","message":"Found Page title should be {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.AddToBasketSteps.add_to_basket' and 'steps.AddToBasketSteps.add_to_basket'"}
+{"logLevel":"debug","message":"Found Add to basket in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.MainPageSteps.user_send_to_element' and 'steps.MainPageSteps.user_send_to_element'"}
+{"logLevel":"debug","message":"Found User send to {} to the search box in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.AddToBasketSteps.should_be_basket_count' and 'steps.AddToBasketSteps.should_be_basket_count'"}
+{"logLevel":"debug","message":"Found Should be basket count two in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.AddToBasketSteps.closed_policy_alert' and 'steps.AddToBasketSteps.closed_policy_alert'"}
+{"logLevel":"debug","message":"Found Closed policy alert in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.SecondPageSteps.user_gets_the_url_of_the_page' and 'steps.SecondPageSteps.user_gets_the_url_of_the_page'"}
+{"logLevel":"debug","message":"Found User gets the url of the page in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.MainPageSteps.user_gets_the_title_of_the_page' and 'steps.MainPageSteps.user_gets_the_title_of_the_page'"}
+{"logLevel":"debug","message":"Found User gets the title of the page in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.SecondPageSteps.user_click_on_second_page' and 'steps.SecondPageSteps.user_click_on_second_page'"}
+{"logLevel":"debug","message":"Found User click on second page in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.SecondPageSteps.product_random_click' and 'steps.SecondPageSteps.product_random_click'"}
+{"logLevel":"debug","message":"Found Product random click in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.MainPageSteps.user_click_on_search_button' and 'steps.MainPageSteps.user_click_on_search_button'"}
+{"logLevel":"debug","message":"Found User click on search button in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.AddToBasketSteps.delete_items_in_basket' and 'steps.AddToBasketSteps.delete_items_in_basket'"}
+{"logLevel":"debug","message":"Found Delete items in basket in current project scope."}
+{"logLevel":"debug","message":"Comparing 'steps.AddToBasketSteps.page_url_should_be' and 'steps.AddToBasketSteps.page_url_should_be'"}
+{"logLevel":"debug","message":"Found page price and basket price should be equals in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tUser click on search box : public void user_click_on_search_box()"}
+{"logLevel":"debug","message":"\tpage price and basket price should be equals : public void page_url_should_be()"}
+{"logLevel":"debug","message":"\tShould be basket count two : public void should_be_basket_count()"}
+{"logLevel":"debug","message":"\tDriver wait : public void driver_wait() throws InterruptedException"}
+{"logLevel":"debug","message":"\tUser click on second page : public void user_click_on_second_page()"}
+{"logLevel":"debug","message":"\tShould be basket is empty : public void should_be_basket_is_empty()"}
+{"logLevel":"debug","message":"\tUser click on search button : public void user_click_on_search_button()"}
+{"logLevel":"debug","message":"\tAdd to basket : public void add_to_basket()"}
+{"logLevel":"debug","message":"\tUser send to {} to the search box : public void user_send_to_element(String pc)"}
+{"logLevel":"debug","message":"\tClick to basket : public void click_to_basket()"}
+{"logLevel":"debug","message":"\tPage title should be {} : public void page_title_should_be(String expectedTitleName)"}
+{"logLevel":"debug","message":"\tUser gets the url of the page : public void user_gets_the_url_of_the_page()"}
+{"logLevel":"debug","message":"\tProduct random click : public void product_random_click()"}
+{"logLevel":"debug","message":"\tIncrease basket count : public void increase_basket_count()"}
+{"logLevel":"debug","message":"\tDelete items in basket : public void delete_items_in_basket()"}
+{"logLevel":"debug","message":"\tUser gets the title of the page : public void user_gets_the_title_of_the_page()"}
+{"logLevel":"debug","message":"\tPage link should be {} : public void page_url_should_be(String expectedUrl)"}
+{"logLevel":"debug","message":"\tClosed policy alert : public void closed_policy_alert()"}
+1635077070980	geckodriver	INFO	Listening on 127.0.0.1:20733
+1635077072431	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofiletwev6J"
+1635077073510	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\asus\\AppData\\Local\\Temp\\rust_mozprofiletwev6J\\search.json.mozlz4", (void 0)))
+1635077077982	Marionette	INFO	Listening on port 62497
+1635077078453	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Eki 24, 2021 3:04:38 ÖS org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-MG6RLL, line 337: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-MG6RLL, line 337: unreachable code after return statement
+{"logLevel":"debug","message":"Executing 'User gets the title of the page' using 'class steps.MainPageSteps.user_gets_the_title_of_the_page"}
+Page title is: GittiGidiyor - Türkiye'nin Öncü Alışveriş Sitesi
+{"logLevel":"debug","message":"Executing 'Page title should be {}' using 'class steps.MainPageSteps.page_title_should_be"}
+{"logLevel":"debug","message":"Executing 'User click on search box' using 'class steps.MainPageSteps.user_click_on_search_box"}
+{"logLevel":"debug","message":"Executing 'User send to {} to the search box' using 'class steps.MainPageSteps.user_send_to_element"}
+{"logLevel":"debug","message":"Executing 'User click on search button' using 'class steps.MainPageSteps.user_click_on_search_button"}
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-MG6RLL, line 337: unreachable code after return statement
+{"logLevel":"debug","message":"Executing 'User click on second page' using 'class steps.SecondPageSteps.user_click_on_second_page"}
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-MG6RLL, line 337: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-MG6RLL, line 337: unreachable code after return statement
+{"logLevel":"debug","message":"Executing 'User gets the url of the page' using 'class steps.SecondPageSteps.user_gets_the_url_of_the_page"}
+Page url is: https://www.gittigidiyor.com/arama/?k=bilgisayar&sf=2
+2021-10-24 15:04:54 INFO  SecondPageSteps:23 - Link Checked
+{"logLevel":"debug","message":"Executing 'Page link should be {}' using 'class steps.SecondPageSteps.page_url_should_be"}
+{"logLevel":"debug","message":"Executing 'Product random click' using 'class steps.SecondPageSteps.product_random_click"}
+[[FirefoxDriver: firefox on WINDOWS (dee66d16-830a-4c14-8ab2-62015d98ecf9)] -> xpath: //ul[contains(@class,'sc-1yvp483-0')]/li//a]
+[[FirefoxDriver: firefox on WINDOWS (dee66d16-830a-4c14-8ab2-62015d98ecf9)] -> xpath: //ul[contains(@class,'sc-1yvp483-0')]/li//a]
+[[FirefoxDriver: firefox on WINDOWS (dee66d16-830a-4c14-8ab2-62015d98ecf9)] -> xpath: //ul[contains(@class,'sc-1yvp483-0')]/li//a]
+[[FirefoxDriver: firefox on WINDOWS (dee66d16-830a-4c14-8ab2-62015d98ecf9)] -> xpath: //ul[contains(@class,'sc-1yvp483-0')]/li//a]
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-MG6RLL, line 337: unreachable code after return statement
+[[FirefoxDriver: firefox on WINDOWS (dee66d16-830a-4c14-8ab2-62015d98ecf9)] -> xpath: //ul[contains(@class,'sc-1yvp483-0')]/li//a]
+[[FirefoxDriver: firefox on WINDOWS (dee66d16-830a-4c14-8ab2-62015d98ecf9)] -> xpath: //ul[contains(@class,'sc-1yvp483-0')]/li//a]
+[[FirefoxDriver: firefox on WINDOWS (dee66d16-830a-4c14-8ab2-62015d98ecf9)] -> xpath: //ul[contains(@class,'sc-1yvp483-0')]/li//a]
+[[FirefoxDriver: firefox on WINDOWS (dee66d16-830a-4c14-8ab2-62015d98ecf9)] -> xpath: //ul[contains(@class,'sc-1yvp483-0')]/li//a]
+[[FirefoxDriver: firefox on WINDOWS (dee66d16-830a-4c14-8ab2-62015d98ecf9)] -> xpath: //ul[contains(@class,'sc-1yvp483-0')]/li//a]
+[[FirefoxDriver: firefox on WINDOWS (dee66d16-830a-4c14-8ab2-62015d98ecf9)] -> xpath: //ul[contains(@class,'sc-1yvp483-0')]/li//a]
+[[FirefoxDriver: firefox on WINDOWS (dee66d16-830a-4c14-8ab2-62015d98ecf9)] -> xpath: //ul[contains(@class,'sc-1yvp483-0')]/li//a]
+[[FirefoxDriver: firefox on WINDOWS (dee66d16-830a-4c14-8ab2-62015d98ecf9)] -> xpath: //ul[contains(@class,'sc-1yvp483-0')]/li//a]
+[[FirefoxDriver: firefox on WINDOWS (dee66d16-830a-4c14-8ab2-62015d98ecf9)] -> xpath: //ul[contains(@class,'sc-1yvp483-0')]/li//a]
+[[FirefoxDriver: firefox on WINDOWS (dee66d16-830a-4c14-8ab2-62015d98ecf9)] -> xpath: //ul[contains(@class,'sc-1yvp483-0')]/li//a]
+[[FirefoxDriver: firefox on WINDOWS (dee66d16-830a-4c14-8ab2-62015d98ecf9)] -> xpath: //ul[contains(@class,'sc-1yvp483-0')]/li//a]
+[[FirefoxDriver: firefox on WINDOWS (dee66d16-830a-4c14-8ab2-62015d98ecf9)] -> xpath: //ul[contains(@class,'sc-1yvp483-0')]/li//a]
+[[FirefoxDriver: firefox on WINDOWS (dee66d16-830a-4c14-8ab2-62015d98ecf9)] -> xpath: //ul[contains(@class,'sc-1yvp483-0')]/li//a]
+[[FirefoxDriver: firefox on WINDOWS (dee66d16-830a-4c14-8ab2-62015d98ecf9)] -> xpath: //ul[contains(@class,'sc-1yvp483-0')]/li//a]
+[[FirefoxDriver: firefox on WINDOWS (dee66d16-830a-4c14-8ab2-62015d98ecf9)] -> xpath: //ul[contains(@class,'sc-1yvp483-0')]/li//a]
+[[FirefoxDriver: firefox on WINDOWS (dee66d16-830a-4c14-8ab2-62015d98ecf9)] -> xpath: //ul[contains(@class,'sc-1yvp483-0')]/li//a]
+[[FirefoxDriver: firefox on WINDOWS (dee66d16-830a-4c14-8ab2-62015d98ecf9)] -> xpath: //ul[contains(@class,'sc-1yvp483-0')]/li//a]
+[[FirefoxDriver: firefox on WINDOWS (dee66d16-830a-4c14-8ab2-62015d98ecf9)] -> xpath: //ul[contains(@class,'sc-1yvp483-0')]/li//a]
+[[FirefoxDriver: firefox on WINDOWS (dee66d16-830a-4c14-8ab2-62015d98ecf9)] -> xpath: //ul[contains(@class,'sc-1yvp483-0')]/li//a]
+[[FirefoxDriver: firefox on WINDOWS (dee66d16-830a-4c14-8ab2-62015d98ecf9)] -> xpath: //ul[contains(@class,'sc-1yvp483-0')]/li//a]
+[[FirefoxDriver: firefox on WINDOWS (dee66d16-830a-4c14-8ab2-62015d98ecf9)] -> xpath: //ul[contains(@class,'sc-1yvp483-0')]/li//a]
+[[FirefoxDriver: firefox on WINDOWS (dee66d16-830a-4c14-8ab2-62015d98ecf9)] -> xpath: //ul[contains(@class,'sc-1yvp483-0')]/li//a]
+[[FirefoxDriver: firefox on WINDOWS (dee66d16-830a-4c14-8ab2-62015d98ecf9)] -> xpath: //ul[contains(@class,'sc-1yvp483-0')]/li//a]
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-MG6RLL, line 337: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtm.js?id=GTM-MG6RLL, line 337: unreachable code after return statement
+{"logLevel":"debug","message":"Executing 'Closed policy alert' using 'class steps.AddToBasketSteps.closed_policy_alert"}
+{"logLevel":"debug","message":"Executing 'Add to basket' using 'class steps.AddToBasketSteps.add_to_basket"}
+{"logLevel":"debug","message":"Executing 'page price and basket price should be equals' using 'class steps.AddToBasketSteps.page_url_should_be"}
+2021-10-24 15:05:01 INFO  AddToBasketSteps:39 - The Prices are equal
+{"logLevel":"debug","message":"Executing 'Driver wait' using 'class steps.AddToBasketSteps.driver_wait"}
+{"logLevel":"debug","message":"Executing 'Driver wait' using 'class steps.AddToBasketSteps.driver_wait"}
+{"logLevel":"debug","message":"Executing 'Click to basket' using 'class steps.AddToBasketSteps.click_to_basket"}
+{"logLevel":"debug","message":"Executing 'Increase basket count' using 'class steps.AddToBasketSteps.increase_basket_count"}
+{"logLevel":"debug","message":"Executing 'Should be basket count two' using 'class steps.AddToBasketSteps.should_be_basket_count"}
+1635077113899	Marionette	INFO	Stopped listening on port 62497
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]

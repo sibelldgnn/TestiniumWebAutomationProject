@@ -1,0 +1,8 @@
+[
+	"C:\\Program Files\\Gauge\\bin\\gauge.exe",
+	"run",
+	"--machine-readable",
+	"--hide-suggestion",
+	"--simple-console",
+	"C:/Users/asus/Downloads/PageObjectModel-master/TestiniumProject/src/test/resources/specs/automation.spec:4"
+]
