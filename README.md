@@ -10,6 +10,25 @@ This is a template to get started with a Gauge project that uses Selenium as the
 Libraries
 This app takes use of the following libraries:
 
+## Scenario
+* User gets the title of the page
+* Page title should be "GittiGidiyor - Türkiye'nin Öncü Alışveriş Sitesi"
+* User click on search box
+* User send to "bilgisayar" to the search box
+* User click on search button
+* User click on second page
+* User gets the url of the page
+* Page link should be "https://www.gittigidiyor.com/arama/?k=bilgisayar&sf=2"
+* Product random click
+* Closed policy alert
+* Add to basket
+* page price and basket price should be equals
+* Click to basket
+* Increase basket count
+* Should be basket count two
+* Delete items in basket
+* Should be basket is empty
+
 ## Libraries
 
 Selenium (•_•) Selenium is an umbrella project encapsulating a variety of tools and libraries enabling web browser automation.
@@ -28,9 +47,7 @@ Log4j (•_•) Several Logger
 * TRACE - Most detailed information. Expect these to be written to logs only.
 
 
-
 ### Defining Specifications
-
 
 * Add more specifications on top of sample specification.
 
