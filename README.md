@@ -7,6 +7,15 @@ This is a template to get started with a Gauge project that uses Selenium as the
     gauge --install java_maven_selenium
 
 ## Building on top of this template
+Libraries
+This app takes use of the following libraries:
+
+## Libraries
+
+Selenium -- Selenium is an umbrella project encapsulating a variety of tools and libraries enabling web browser automation.
+![image](https://user-images.githubusercontent.com/39453835/138594068-b8aee26c-518b-4181-901b-38c695475482.png)
+Junit
+Log4j
 
 ### Defining Specifications
 
