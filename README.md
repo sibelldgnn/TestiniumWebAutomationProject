@@ -19,7 +19,13 @@ Junit (•_•) JUnit is a unit testing framework for the Java programming langu
 ![Junit](https://github.com/sibelldgnn/TestiniumWebAutomationProject/blob/master/1_7sxGGmnUVforqlxb_sM4dg.gif)
 
 Log4j (•_•) Several Logger 
+OFF	    The highest possible rank and is intended to turn off logging.
+FATAL	Severe errors that cause premature termination. Expect these to be immediately visible on a status console.
+ERROR	Other runtime errors or unexpected conditions. Expect these to be immediately visible on a status console.
+WARN	Use of deprecated APIs, poor use of API, 'almost' errors, other runtime situations that are undesirable or unexpected, but not necessarily "wrong". Expect these to be immediately visible on a status console.
 INFO	Interesting runtime events (startup/shutdown). Expect these to be immediately visible on a console, so be conservative and keep to a minimum.
+DEBUG	Detailed information on the flow through the system. Expect these to be written to logs only. Generally speaking, most lines logged by your application should be written as DEBUG.
+TRACE	Most detailed information. Expect these to be written to logs only.
 
 ### Defining Specifications
 
