@@ -41,7 +41,7 @@ public class SecondPage {
             String geting = allProducts.get(i).getText();
             //please add your file path
             File file = new File(
-                    "C:\\Users\\asus\\Downloads\\PageObjectModel-master\\TestiniumProject\\src\\test\\resources\\File\\product.txt");
+                    "C:\\Users\\asus\\TestiniumProject\\src\\test\\resources\\File\\product.txt");
             try {
                 FileWriter fw = new FileWriter(file);
                 BufferedWriter bfw = new BufferedWriter(fw);
